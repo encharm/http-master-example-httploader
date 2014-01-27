@@ -21,7 +21,7 @@ module.exports = function(argv, data, finish) {
 
 ## Using example loader
 
-* Close into `/path/to/http-master-example-httploader` and install dependencies with `npm install`
+* Clone into `/path/to/http-master-example-httploader` and install dependencies with `npm install`
 
 * Create `config.json` with contents (or use example one from this repo for demo)
 ```
