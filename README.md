@@ -35,5 +35,6 @@ module.exports = function(argv, data, finish) {
 ## Making a general use loader
 
 One could publish a loader to NPM and allow global install. You could then use it as.
+`npm install -g http-master-example-httploader`
 
 `http-master --config config.json --configloader http-master-example-httploader --show-rules`
