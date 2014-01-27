@@ -11,6 +11,7 @@ This module should export a function which accepts 3 arguments:
 `argv` - object representing http-master arguments, may be used for convenience
 `data` - utf8 content of file read by `--config`
 `finish` - function with parameters `(err, config)` which the module should call after receiving a request. It may also be called when after initial request the config has changed.
+
 Note: if --watchConfig was passed, this function may be called multiple times due to file passed as `--config` changing
 ```
 module.exports = function(argv, data, finish) {
