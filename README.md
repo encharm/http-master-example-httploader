@@ -31,3 +31,9 @@ module.exports = function(argv, data, finish) {
 ```
 
 `http-master --config config.json --configloader /path/to/http-master-example-httploader --show-rules`
+
+## Making a general use loader
+
+One could publish a loader to NPM and allow global install. You could then use it as.
+
+`http-master --config config.json --configloader http-master-example-httploader --show-rules`
