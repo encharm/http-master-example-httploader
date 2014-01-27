@@ -1,13 +1,13 @@
 {
   "name": "http-master-example-httploader",
   "version": "0.0.1",
-  "description": "",
+  "description": "Example config loader for http-master",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Damian Kaczmarek <damian@codecharm.co.uk>",
+  "license": "MIT",
   "dependencies": {
     "request": "~2.33.0"
   }
